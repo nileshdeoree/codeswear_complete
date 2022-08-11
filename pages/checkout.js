@@ -26,7 +26,7 @@ const Checkout = ({ cart, subTotal, addToCart, removeFromCart }) => {
         <div className=" mb-4">
           <label htmlFor="address" className="leading-7 text-sm text-gray-600">Address</label>
 
-          <textarea name="" id="" cols="30" rows="2" id="email" name="email" className="w-full bg-white rounded border border-gray-300 focus:border-pink-500 focus:ring-2 focus:ring-pink-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"></textarea>
+          {/* <textarea name="" id="" cols="30" rows="2" id="email" name="email" className="w-full bg-white rounded border border-gray-300 focus:border-pink-500 focus:ring-2 focus:ring-pink-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"></textarea> */}
 
         </div>
       </div>
@@ -70,12 +70,12 @@ const Checkout = ({ cart, subTotal, addToCart, removeFromCart }) => {
         <ol className='list-decimal font-semibold mx-12'>
           {Object.keys(cart).length == 0 && <div className='my-4 font-semibold'>Your cart is Empty!</div>}
           {Object.keys(cart).map((k) => {
-            return <li keys={k}>
-              <div className='item flex my-5'>
-                <div className="font-semibold">{cart[k].name} </div>
-                <div className="flex font-semibold item-center justify-center w-1/3 text-lg"><AiFillMinusCircle onClick={() => { removeFromCart(k, 1, cart[k].price, cart[k].name, cart[k].size, cart[k].variant) }} className='cursor-pointer text-pink-500' /><span className='mx-2 text-sm'>{cart[k].qty}</span><AiFillPlusCircle onClick={() => { addToCart(k, 1, cart[k].price, cart[k].name, cart[k].size, cart[k].variant) }} className='cursor-pointer text-pink-500' /></div>
-              </div>
-            </li>
+            // return <li keys={k}>
+            //   <div className='item flex my-5'>
+            //     <div className="font-semibold">{cart[k].name} </div>
+            //     <div className="flex font-semibold item-center justify-center w-1/3 text-lg"><AiFillMinusCircle onClick={() => { removeFromCart(k, 1, cart[k].price, cart[k].name, cart[k].size, cart[k].variant) }} className='cursor-pointer text-pink-500' /><span className='mx-2 text-sm'>{cart[k].qty}</span><AiFillPlusCircle onClick={() => { addToCart(k, 1, cart[k].price, cart[k].name, cart[k].size, cart[k].variant) }} className='cursor-pointer text-pink-500' /></div>
+            //   </div>
+            // </li>
           })}
         </ol>
         <div className="font-bold mx-10">Subtotal:{subTotal}</div>

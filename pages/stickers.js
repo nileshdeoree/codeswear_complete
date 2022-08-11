@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const Stickers = () => {
   return (
@@ -9,7 +10,7 @@ const Stickers = () => {
           <div className="flex flex-wrap -m-4">
             <Link href={'/products/wear-the-code'}><div className="lg:w-1/5 md:w-1/2 p-4 w-full cursor-pointer shadow-lg m-5">
               <a className="block relative  rounded overflow-hidden">
-                <img alt="ecommerce" className="m-auto md:mx-0 h-[30vh] block" src="https://m.media-amazon.com/images/I/81dPvd4Q7TL._AC_UY327_FMwebp_QL65_.jpg" />
+                <Image alt="ecommerce" className="m-auto md:mx-0 h-[30vh] block" src="https://m.media-amazon.com/images/I/81dPvd4Q7TL._AC_UY327_FMwebp_QL65_.jpg" />
               </a>
               <div className="mt-4 text-center md:text-left">
                 <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">T-shirts</h3>
@@ -21,7 +22,7 @@ const Stickers = () => {
             </Link>
             <Link href={'/products/wear-the-code'}><div className="lg:w-1/5 md:w-1/2 p-4 w-full cursor-pointer shadow-lg m-5">
               <a className="block relative  rounded overflow-hidden">
-                <img alt="ecommerce" className="m-auto md:mx-0 h-[30vh] block" src="https://m.media-amazon.com/images/I/81dPvd4Q7TL._AC_UY327_FMwebp_QL65_.jpg" />
+                <Image alt="ecommerce" className="m-auto md:mx-0 h-[30vh] block" src="https://m.media-amazon.com/images/I/81dPvd4Q7TL._AC_UY327_FMwebp_QL65_.jpg" />
               </a>
               <div className="mt-4 text-center md:text-left">
                 <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">T-shirts</h3>
@@ -33,7 +34,7 @@ const Stickers = () => {
             </Link>
             <Link href={'/products/wear-the-code'}><div className="lg:w-1/5 md:w-1/2 p-4 w-full cursor-pointer shadow-lg m-5">
               <a className="block relative  rounded overflow-hidden">
-                <img alt="ecommerce" className="m-auto md:mx-0 h-[30vh] block" src="https://m.media-amazon.com/images/I/81dPvd4Q7TL._AC_UY327_FMwebp_QL65_.jpg" />
+                <Image alt="ecommerce" className="m-auto md:mx-0 h-[30vh] block" src="https://m.media-amazon.com/images/I/81dPvd4Q7TL._AC_UY327_FMwebp_QL65_.jpg" />
               </a>
               <div className="mt-4 text-center md:text-left">
                 <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">T-shirts</h3>
@@ -45,7 +46,7 @@ const Stickers = () => {
             </Link>
             <Link href={'/products/wear-the-code'}><div className="lg:w-1/5 md:w-1/2 p-4 w-full cursor-pointer shadow-lg m-5">
               <a className="block relative  rounded overflow-hidden">
-                <img alt="ecommerce" className="m-auto md:mx-0 h-[30vh] block" src="https://m.media-amazon.com/images/I/81dPvd4Q7TL._AC_UY327_FMwebp_QL65_.jpg" />
+                <Image alt="ecommerce" className="m-auto md:mx-0 h-[30vh] block" src="https://m.media-amazon.com/images/I/81dPvd4Q7TL._AC_UY327_FMwebp_QL65_.jpg" />
               </a>
               <div className="mt-4 text-center md:text-left">
                 <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">T-shirts</h3>
@@ -57,7 +58,7 @@ const Stickers = () => {
             </Link>
             <Link href={'/products/wear-the-code'}><div className="lg:w-1/5 md:w-1/2 p-4 w-full cursor-pointer shadow-lg m-5">
               <a className="block relative  rounded overflow-hidden">
-                <img alt="ecommerce" className="m-auto md:mx-0 h-[30vh] block" src="https://m.media-amazon.com/images/I/81dPvd4Q7TL._AC_UY327_FMwebp_QL65_.jpg" />
+                <Image alt="ecommerce" className="m-auto md:mx-0 h-[30vh] block" src="https://m.media-amazon.com/images/I/81dPvd4Q7TL._AC_UY327_FMwebp_QL65_.jpg" />
               </a>
               <div className="mt-4 text-center md:text-left">
                 <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">T-shirts</h3>
@@ -69,7 +70,7 @@ const Stickers = () => {
             </Link>
             <Link href={'/products/wear-the-code'}><div className="lg:w-1/5 md:w-1/2 p-4 w-full cursor-pointer shadow-lg m-5">
               <a className="block relative  rounded overflow-hidden">
-                <img alt="ecommerce" className="m-auto md:mx-0 h-[30vh] block" src="https://m.media-amazon.com/images/I/81dPvd4Q7TL._AC_UY327_FMwebp_QL65_.jpg" />
+                <Image alt="ecommerce" className="m-auto md:mx-0 h-[30vh] block" src="https://m.media-amazon.com/images/I/81dPvd4Q7TL._AC_UY327_FMwebp_QL65_.jpg" />
               </a>
               <div className="mt-4 text-center md:text-left">
                 <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">T-shirts</h3>
@@ -81,7 +82,7 @@ const Stickers = () => {
             </Link>
             <Link href={'/products/wear-the-code'}><div className="lg:w-1/5 md:w-1/2 p-4 w-full cursor-pointer shadow-lg m-5">
               <a className="block relative  rounded overflow-hidden">
-                <img alt="ecommerce" className="m-auto md:mx-0 h-[30vh] block" src="https://m.media-amazon.com/images/I/81dPvd4Q7TL._AC_UY327_FMwebp_QL65_.jpg" />
+                <Image alt="ecommerce" className="m-auto md:mx-0 h-[30vh] block" src="https://m.media-amazon.com/images/I/81dPvd4Q7TL._AC_UY327_FMwebp_QL65_.jpg" />
               </a>
               <div className="mt-4 text-center md:text-left">
                 <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">T-shirts</h3>
@@ -93,7 +94,7 @@ const Stickers = () => {
             </Link>
             <Link href={'/products/wear-the-code'}><div className="lg:w-1/5 md:w-1/2 p-4 w-full cursor-pointer shadow-lg m-5">
               <a className="block relative  rounded overflow-hidden">
-                <img alt="ecommerce" className="m-auto md:mx-0 h-[30vh] block" src="https://m.media-amazon.com/images/I/81dPvd4Q7TL._AC_UY327_FMwebp_QL65_.jpg" />
+                <Image alt="ecommerce" className="m-auto md:mx-0 h-[30vh] block" src="https://m.media-amazon.com/images/I/81dPvd4Q7TL._AC_UY327_FMwebp_QL65_.jpg" />
               </a>
               <div className="mt-4 text-center md:text-left">
                 <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">T-shirts</h3>
