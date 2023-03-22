@@ -36,7 +36,7 @@ const Navbar = ({ cart, addToCart, removeFromCart, clearCart, subTotal }) => {
                 </ul>
             </div>
             <div className=" cursor-pointer cart absolute right-0 top-4 mx-5 flex">
-                <Link href={'/login'}><MdAccountCircle className='text-xl md:text-2xl mx-2' /></Link>
+                <Link href={'/login'}><a><MdAccountCircle className='text-xl md:text-2xl mx-2' /></a></Link>
                 <AiOutlineShoppingCart onClick={toggleCart} className='text-xl md:text-2xl' />
             </div>
 
@@ -47,12 +47,13 @@ const Navbar = ({ cart, addToCart, removeFromCart, clearCart, subTotal }) => {
                 <ol className='list-decimal font-semibold'>
                     {Object.keys(cart).length == 0 && <div className='my-4 font-semibold'>Your cart is Empty!</div>}
                     {Object.keys(cart).map((k) => {
-                        // return <li keys={k}>
-                        //     <div className='item flex my-5'>
-                        //         <div className="w-2/3 font-semibold">{cart[k].name} </div>
-                        //         <div className="flex font-semibold item-center justify-center w-1/3 text-lg"><AiFillMinusCircle onClick={() => { removeFromCart(k, 1, cart[k].price, cart[k].name, cart[k].size, cart[k].variant) }} className='cursor-pointer text-pink-500' /><span className='mx-2 text-sm'>{cart[k].qty}</span><AiFillPlusCircle onClick={() => { addToCart(k, 1, cart[k].price, cart[k].name, cart[k].size, cart[k].variant) }} className='cursor-pointer text-pink-500' /></div>
-                        //     </div>
-                        // </li>
+                        // eslint-disable-next-line react/jsx-key
+                        return <li keys={k}>
+                            <div className='item flex my-5'>
+                                <div className="w-2/3 font-semibold">{cart[k].name} </div>
+                                <div className="flex font-semibold item-center justify-center w-1/3 text-lg"><AiFillMinusCircle onClick={() => { removeFromCart(k, 1, cart[k].price, cart[k].name, cart[k].size, cart[k].variant )}} className='cursor-pointer text-pink-500' /><span className='mx-2 text-sm'>{cart[k].qty}</span><AiFillPlusCircle onClick={() => { addToCart(k, 1, cart[k].price, cart[k].name, cart[k].size, cart[k].variant) }} className='cursor-pointer text-pink-500' /></div>
+                            </div>
+                        </li>
                     })}
 
 
